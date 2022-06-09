@@ -91,7 +91,7 @@ def update_game():
     b9['text'] = board.position[2,2].upper()
 
 def disable_all_buttons():
-    b1.config(state=NORMAL)
+    b1.config(state=DISABLED)
     b2.config(state=DISABLED)
     b3.config(state=DISABLED)
     b4.config(state=DISABLED)
